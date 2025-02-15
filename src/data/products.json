@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "category": "Electronics",
+      "image": "/images/headphones.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gaming Mouse",
+      "price": 29.99,
+      "category": "Electronics",
+      "image": "/images/gamingmouse.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Yoga Mat",
+      "price": 19.99,
+      "category": "Fitness",
+      "image": "/images/yogamat.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Water Bottle",
+      "price": 9.99,
+      "category": "Fitness",
+      "image": "/images/waterbottle.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sneakers",
+      "price": 79.99,
+      "category": "Fashion",
+      "image": "/images/sneakersj.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Backpack",
+      "price": 49.99,
+      "category": "Fashion",
+      "image": "/images/backpack.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Coffee Maker",
+      "price": 99.99,
+      "category": "Home Appliances",
+      "image": "/images/coffemaker.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Desk Lamp",
+      "price": 24.99,
+      "category": "Home Appliances",
+      "image": "/images/desklamp.jpg"
+    },
+    {
+      "id": 9,
+      "name": "T-shirt",
+      "price": 14.99,
+      "category": "Fashion",
+      "image": "/images/tshirt.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Smartwatch",
+      "price": 199.99,
+      "category": "Electronics",
+      "image": "/images/smartwatch.jpg"
+    }
+  ]

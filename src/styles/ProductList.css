@@ -1,0 +1,24 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .product-list-item {
+    flex: 1 1 calc(25% - 32px);
+    box-sizing: border-box;
+    margin: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-list-item {
+      flex: 1 1 calc(50% - 32px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-list-item {
+      flex: 1 1 100%;
+    }
+  }

@@ -13,10 +13,12 @@
   }
   
   .product-card img {
-    max-width: 100%;
-    height: auto;
+    width: 150px;  /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images fill the area without distortion */
     border-radius: 8px;
-  }
+}
+
   
   .product-card h3 {
     font-size: 1.2em;

@@ -1,8 +1,8 @@
-import React from "react";
-import "../styles/CategoryFilter.css";
+import '../styles/CategoryFilter.css'; // Ensure correct path
+
 function CategoryFilter({ setSelectedCategory }) {
   return (
-    <div>
+    <div className="category-filter"> {/* Added class */}
       <label>Filter by Category: </label>
       <select onChange={(e) => setSelectedCategory(e.target.value)}>
         <option value="All">All</option>

@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
@@ -5,25 +6,42 @@ body {
   padding: 0;
 }
 
+/* Header */
 h1 {
   text-align: center;
   color: #333;
   margin-top: 20px;
 }
 
+/* Centered Container */
 .app-container {
-  max-width: 1200px;
+  max-width: 1200px; /* Keeps other content centered */
   margin: 0 auto;
   padding: 20px;
 }
 
+/* Category Filter */
 .category-filter {
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* Product List - Full Width */
 .product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  width: 100vw; /* Full screen width */
+  max-width: 100%; /* Prevents overflow */
+  gap: 10px;
+  padding: 0 20px; /* Adds space on the sides */
+  box-sizing: border-box; /* Ensures padding doesn’t add to width */
+}
+
+/* Individual Product Items */
+.product-item {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
